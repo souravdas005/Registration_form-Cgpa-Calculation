@@ -1,0 +1,48 @@
+<!DOCOTYPE html>
+<html>
+<head>
+<title>North Western University</title>
+</head>
+<body>
+<h1 align="center">North Western University,Khulna.</h1>
+<h2>Student Registration Form:</h2>
+<p>Note:Please fill out all fields carefully. Incomplete or incorrect entries may result in rejection.</p>
+<form action="submit.php" method="POST">
+    <label for="FName">First Name:</label>
+    <input type="text" id="FName" name="first_name" required>
+
+
+    <label for="LName">Last Name:</label>
+    <input type="text" id="LName" name="last_name" required>
+    <br><br>
+
+    <label for="Mail">Email Add:</label>
+    <input type="email" id="Mail" name="email" placeholder="example123@gmail.com" required>
+    <br><br>
+
+    <label for="Mobile">Mobile No:</label>
+    <input type="tel" id="Mobile" name="mobile" placeholder="+8801XXXXXXXXX" required>
+    <br><br>
+
+    <label for="Password">Password:</label>
+    <input type="password" id="Password" name="password" required>
+    <br><br>
+
+    <label for="DOB">Date Of Birth:</label>
+    <input type="date" id="DOB" name="dob" required>
+    <br><br>
+
+    <label for="Address">Address:</label>
+    <textarea id="Address" name="address" placeholder="Enter your full address" required></textarea>
+    <br><br>
+
+    <label for="Gender">Gender:</label>
+    <input type="radio" id="Male" name="gender" value="Male" required> Male
+    <input type="radio" id="Female" name="gender" value="Female" required> Female
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
