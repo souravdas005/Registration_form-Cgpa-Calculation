@@ -5,18 +5,18 @@ The website is designed as a comprehensive Student Registration and CGPA Calcula
 When creating database in Xampp Apps, you must keep the names the same.
 
 Database Name: 
-northwestern_university 
+(northwestern_university) 
 
 Table Name: 
-students 
+(students)
 
 Column name:
-    id 
-    first_name
-    last_name
-    email
-    mobile_number
-    password
-    date_of_birth
-    address
-    gender
+    (id, 
+    first_name,
+    last_name,
+    email,
+    mobile_number,
+    password,
+    date_of_birth,
+    address,
+    gender)
