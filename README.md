@@ -20,3 +20,23 @@ Column name:
     date_of_birth,
     address,
     gender)
+
+
+
+    
+
+CREATE DATABASE northwestern_university;
+
+USE northwestern_university;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    mobile_number VARCHAR(15) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    address TEXT NOT NULL,
+    gender ENUM('Male', 'Female') NOT NULL
+);
