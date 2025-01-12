@@ -1,5 +1,13 @@
-# Registration_form-Cgpa Calculation
+# Project Name:Student registration form and CGPA calculation system. 
+
+Course Code: CSE-3108.
+Course Title: Internet Programming Laboratory.
+
+Author: Saurav Das,Student 3rd Year, 2nd Semester, Computer Science Engineering,North Western University,Khulna.
+
 The website is designed as a comprehensive Student Registration and CGPA Calculation System. It serves two main purposes: allowing users to register with their personal details and providing a platform to calculate their average CGPA based on subject marks.
+To creating this website i am using HTML,PHP,Java Script,CSS.
+For storing data use Xampp application.
 
 #Note:To properly organize this project. All the files must be  store  in XAMPP's htdocs folder.
 When creating database in Xampp Apps, you must keep the names the same.
@@ -20,8 +28,6 @@ Column name:
     date_of_birth,
     address,
     gender)
-
-
 
     
 
