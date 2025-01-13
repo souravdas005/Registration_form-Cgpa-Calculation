@@ -53,7 +53,7 @@ CREATE TABLE students (
 
 Author:Sourav Das.
 ID:20222029010.
-Semester:3.2
+Semester:3.1
 Course Code: CSE-3108.
 Course Title: Internet Programming Laboratory.
 North Western University,Khulna.
