@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>North Western University</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+
+    h1, h2 {
+        text-align: center;
+        color: #333;
+        margin: 5px 0;
+    }
+
+    form {
+        background-color: #ffffff;
+        max-width: 450px;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin: 3px 0;
+        font-weight: bold;
+        color: #555;
+        font-size: 14px;
+    }
+
+    input, textarea, button {
+        width: calc(100% - 10px);
+        margin: 3px 0 10px 0;
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        height: 60px;
+        resize: none;
+    }
+
+    input[type="radio"] {
+        width: auto;
+        margin: 0 5px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button {
+        width: 48%;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    .clear-btn {
+        background-color: #f44336;
+    }
+
+    .clear-btn:hover {
+        background-color: #d32f2f;
+    }
+
+    p {
+        font-size: 12px;
+        color: #888;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<h1>North Western University, Khulna</h1>
+<h2>Student Registration Form</h2>
+<p>Note: Please fill out all fields carefully. Incomplete or incorrect entries may result in rejection.</p>
+
+<form action="submit.php" method="POST">
+    <label for="FName">First Name:</label>
+    <input type="text" id="FName" name="first_name" required>
+
+    <label for="LName">Last Name:</label>
+    <input type="text" id="LName" name="last_name" required>
+
+    <label for="Mail">Email Address:</label>
+    <input type="email" id="Mail" name="email" placeholder="example123@gmail.com" required>
+
+    <label for="Mobile">Mobile No:</label>
+    <input type="tel" id="Mobile" name="mobile" placeholder="+8801XXXXXXXXX" required>
+
+    <label for="Password">Password:</label>
+    <input type="password" id="Password" name="password" required>
+
+    <label for="DOB">Date Of Birth:</label>
+    <input type="date" id="DOB" name="dob" required>
+
+    <label for="Address">Address:</label>
+    <textarea id="Address" name="address" placeholder="Enter your full address" required></textarea>
+
+    <label for="Gender">Gender:</label>
+    <input type="radio" id="Male" name="gender" value="Male" required> Male
+    <input type="radio" id="Female" name="gender" value="Female" required> Female
+
+    <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset" class="clear-btn">Clear</button>
+    </div>
+</form>
+
+</body>
+</html>

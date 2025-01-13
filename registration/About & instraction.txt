@@ -1,0 +1,59 @@
+Project Name: Student registration form and CGPA calculation system.
+Description:
+The website is designed as a comprehensive Student Registration and CGPA Calculation System. It serves two main purposes: allowing users to register with their personal details and providing a platform to calculate their average CGPA based on subject marks.
+Features:
+Registration Page:
+A user-friendly interface that allows users to register with their details (e.g., name, email,password,dob etc.).
+view Page:
+Displays the submitted registration details in a clear and organized manner.
+Marks Entry Page:
+Provides a form for users to input marks for five subjects.
+Marks Display Page:
+Displays the entered marks in an organized table or list format for easy viewing.
+Technologies Used:
+Frontend: HTML, CSS (for styling and layout)
+Backend: JavaScript/PHP/Node.js (optional if server-side logic is implemented)
+Database: (Optional if data persistence is needed, e.g., MySQL )
+How to Use:
+All the files must be store in XAMPP's htdocs folder. 
+Create Database and name it “northwestern_university”.  
+	Create Table and name it “students”.  
+Column name: (id, 
+    first_name,
+    last_name,
+    email,
+    mobile_number,
+    password,
+    date_of_birth,
+    address,
+    gender)
+
+In any browser type localhost/(folder name)/form.html. 
+Here folder name is the folder name containing al project files.
+
+SQL for create database & table:
+
+CREATE DATABASE northwestern_university;
+
+USE northwestern_university;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    mobile_number VARCHAR(15) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    address TEXT NOT NULL,
+    gender ENUM('Male', 'Female') NOT NULL
+);
+
+
+
+Author:Sourav Das.
+ID:20222029010.
+Semester:3.2
+Course Code: CSE-3108.
+Course Title: Internet Programming Laboratory.
+North Western University,Khulna.
