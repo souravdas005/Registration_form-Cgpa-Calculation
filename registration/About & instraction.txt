@@ -2,17 +2,19 @@ Project Name: Student registration form and CGPA calculation system.
 Description:
 The website is designed as a comprehensive Student Registration and CGPA Calculation System. It serves two main purposes: allowing users to register with their personal details and providing a platform to calculate their average CGPA based on subject marks.
 Features:
-Registration Page:
-A user-friendly interface that allows users to register with their details (e.g., name, email,password,dob etc.).
-view Page:
+Registration Form:
+A user-friendly interface that allows users to register with their details.
+this page is North Western University student registration form.
+(like: name, email,password,dob etc.).
+View_user:
 Displays the submitted registration details in a clear and organized manner.
-Marks Entry Page:
+Marks Input:
 Provides a form for users to input marks for five subjects.
-Marks Display Page:
-Displays the entered marks in an organized table or list format for easy viewing.
-Technologies Used:
+Cgpa Calculation:
+Displays the Cgpa to basis the inputed submit marks.
+Coding Used:
 Frontend: HTML, CSS (for styling and layout)
-Backend: JavaScript/PHP/Node.js (optional if server-side logic is implemented)
+Backend:PHP/Node.
 Database: (Optional if data persistence is needed, e.g., MySQL )
 How to Use:
 All the files must be store in XAMPP's htdocs folder. 
